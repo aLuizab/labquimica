@@ -224,8 +224,8 @@ img {
 }
 
 .bg-primary, .btn-primary, .btn-white:hover {
-  background: #21c87a !important;
-  border-color: #21c87a !important;
+  background: #9a0034 !important;
+  border-color: #9a0034 !important;
   color: #fff;
 }
 
@@ -277,32 +277,16 @@ img {
 }
 
 .bg-primary {
-  background: #21c87a !important;
+  background: #9a0034 !important;
 }
 
 a {
-  color: #21c87a;
+  color: #9a0034;
 }
 
 a:hover, a:focus {
   outline: none;
   text-decoration: none;
-}
-
-/*----------------------
- HEADER STYLE
------------------------*/
-.header-socials {
-  line-height: 22px;
-  margin-bottom: 0px;
-}
-
-.header-socials li {
-  padding: 8px;
-}
-
-.header-socials li a {
-  color: #21c87a;
 }
 
 /*-----------------
@@ -1650,7 +1634,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #21c87a;
+    background: #9a0034;
   }
   #map {
     margin-top: 40px;
@@ -1682,7 +1666,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #21c87a;
+    background: #9a0034;
   }
   .top-info-block {
     text-align: center;
@@ -1905,7 +1889,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #21c87a;
+    background: #9a0034;
   }
   .web-service-block {
     margin-bottom: 30px;
