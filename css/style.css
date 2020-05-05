@@ -224,8 +224,8 @@ img {
 }
 
 .bg-primary, .btn-primary, .btn-white:hover {
-  background: #e85183 !important;
-  border-color: #e85183 !important;
+  background: #3E1648 !important; /*nao é*/
+  border-color: #3E1648 !important;
   color: #fff;
 }
 
@@ -277,11 +277,11 @@ img {
 }
 
 .bg-primary {
-  background: #e85183 !important;
+  background: #3E1648 !important; /*é o navbar!!*/
 }
 
 a {
-  color: #e85183;
+  color: #3E1648;
 }
 
 a:hover, a:focus {
@@ -474,7 +474,7 @@ PAGE BANNER
 }
 
 .page-banner-content p {
-  color: #eda4bc;
+  color: #3E1648;/* nao é o navbar*/
 }
 
 .form-control {
@@ -585,7 +585,7 @@ PAGE BANNER
   left: 0;
   top: 0;
   width: 100%;
-  background: #eda4bc;
+  background: #3E1648; /*nao é o navbar*/
   border-color: transparent;
 }
 
@@ -632,7 +632,7 @@ PAGE BANNER
  BANNER STYLE
 -----------------------*/
 .py-7 {
-  padding: 7.5rem 0;
+  padding: 2.5rem 0;
 }
 
 .py-8 {
@@ -667,7 +667,7 @@ PAGE BANNER
 }
 
 .banner-content p {
-  color: #eda4bc;
+  color: #3E1648; /*nao é o navbar*/
   padding-right: 80px;
   margin-bottom: 30px !important;
 }
@@ -806,20 +806,20 @@ h5.subtitle {
 /*----------------------
  WEB SERVICES
 -----------------------*/
-#services-2 {
+#quem-somos {
   position: relative;
   background: url("../images/bg/6.jpg") no-repeat fixed 50% 50%;
   background-size: cover;
 }
 
-#services-2:before {
+#quem-somos:before {
   position: absolute;
   content: "";
   left: 0px;
   top: 0px;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(30deg, rgba(154, 0, 52, 0.95) 0%, rgba(240, 192, 208, 0.95) 100%);
+  background-image: linear-gradient(30deg, rgba(62, 22, 72, 0.95) 0%, rgba(104, 23, 89, 0.95) 100%);
 }
 
 .web-service-block {
@@ -1440,6 +1440,15 @@ CONTACT PAGE
 /*----------------------------------
     TABLET LAYOUT: 768px
 ------------------------------------*/
+.banner-img-block {
+  width: 150%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+
 @media (max-width: 992px) {
   .section-title {
     font-size: 30px;
