@@ -372,6 +372,35 @@ a:hover, a:focus {
 /* =========================
 PRELOADER
 =======================*/
+#page-loader {
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1050;
+}
+
+.loader-icon {
+  background: none repeat scroll 0 0 #fff;
+  border-bottom: 3px solid rgba(19, 19, 19, 0.1) !important;
+  border-left: 3px solid rgba(19, 19, 19, 0.1) !important;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -o-border-radius: 100px;
+  -ms-border-radius: 100px;
+  border-right: 3px solid #1453F2 !important;
+  border-top: 3px solid rgba(19, 19, 19, 0.1) !important;
+  height: 50px;
+  left: 50%;
+  margin: -20px 0 0 -20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 50px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 .colored-border {
   border-color: #fff;
@@ -403,7 +432,6 @@ PRELOADER
     transform: rotate(359deg);
   }
 }
-
 /*--------------------------
 PAGE BANNER
 --------------------------*/
@@ -1241,14 +1269,8 @@ CONTACT PAGE
   font-size: 40px;
   margin-bottom: 20px;
   display: block;
-  color: #21c87a;
+  color: #3E1648;
 }
-
-.form-control:focus, .form-control:hover {
-  border-color: #21c87a;
-  box-shadow: none;
-}
-
 /* --------------
     MAP
 -----------------*/
