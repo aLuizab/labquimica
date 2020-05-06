@@ -230,8 +230,8 @@ img {
 }
 
 .bg-dark, .btn-primary:hover {
-  background: #232323 !important;
-  border-color: #232323 !important;
+  background: #3e1648 !important;
+  border-color: #3e1648 !important;
   color: #fff;
 }
 
@@ -330,7 +330,7 @@ a:hover, a:focus {
  HOME-3
 ---------------------------*/
 .header-white {
-  background: #21c87a;
+  background: #3e1648;
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
   border-radius: 0px;
 }
@@ -372,35 +372,6 @@ a:hover, a:focus {
 /* =========================
 PRELOADER
 =======================*/
-#page-loader {
-  background: #fff;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  z-index: 1050;
-}
-
-.loader-icon {
-  background: none repeat scroll 0 0 #fff;
-  border-bottom: 3px solid rgba(19, 19, 19, 0.1) !important;
-  border-left: 3px solid rgba(19, 19, 19, 0.1) !important;
-  border-radius: 100px;
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -o-border-radius: 100px;
-  -ms-border-radius: 100px;
-  border-right: 3px solid #1453F2 !important;
-  border-top: 3px solid rgba(19, 19, 19, 0.1) !important;
-  height: 50px;
-  left: 50%;
-  margin: -20px 0 0 -20px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 50px;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 
 .colored-border {
   border-color: #fff;
@@ -474,7 +445,7 @@ PAGE BANNER
 }
 
 .page-banner-content p {
-  color: #3E1648;/* nao é o navbar*/
+  color: #fff;/* nao é o navbar*/
 }
 
 .form-control {
@@ -889,7 +860,7 @@ h5.subtitle {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.92);
+  background: rgba(62, 22, 72, 0.92);
 }
 
 .overlay.feature-overlay {
@@ -1290,29 +1261,13 @@ CONTACT PAGE
  FOOTER
 -----------------------*/
 #footer {
-  padding: 80px 0px;
+  padding: 20px 0px;
   position: relative;
 }
 
 #footer .footer-brand {
   font-size: 30px;
 }
-
-#footer .footer-links {
-  padding-left: 0;
-  list-style-type: none;
-}
-
-#footer {
-  background: url("../images/bg/10.jpg");
-  background-size: cover;
-}
-
-.footer-overlay {
-  background: #111;
-  opacity: .94;
-}
-
 .footer-widget p {
   color: #888;
   margin-top: 20px;
@@ -1324,33 +1279,6 @@ CONTACT PAGE
 .footer-widget h3 {
   color: #fff;
   margin-bottom: 30px;
-}
-
-.footer-links a {
-  color: #888;
-  line-height: 38px;
-  font-size: 14px;
-  text-transform: capitalize;
-}
-
-.footer-links i {
-  width: 25px;
-}
-
-.footer-copy {
-  color: #888;
-  font-size: 16px;
-  position: relative;
-}
-
-.footer-copy:before {
-  position: absolute;
-  content: "";
-  left: 0px;
-  top: 12px;
-  width: 66%;
-  height: 1px;
-  background: #94959a;
 }
 
 .current-year {
