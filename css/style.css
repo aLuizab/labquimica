@@ -304,13 +304,6 @@ a:hover, a:focus {
   margin-bottom: 0px;
 }
 
-.icon-block {
-  margin-right: 20px;
-  color: #21c87a;
-  font-size: 40px;
-  line-height: 20px;
-  font-weight: 400;
-}
 
 .top-info-block:last-child {
   margin-right: 0px;
@@ -621,11 +614,6 @@ PAGE BANNER
   text-transform: uppercase;
 }
 
-.dropdown-item:hover {
-  color: #fff;
-  text-decoration: none;
-  background-color: #21c87a;
-}
 
 /*----------------------
  BANNER STYLE
@@ -706,104 +694,10 @@ PAGE BANNER
   background-size: cover;
 }
 
-/*----------------------
- FEATURE STYLE
------------------------*/
-.img-icon-block {
-  position: relative;
-}
 
-.img-icon-block:before {
-  position: absolute;
-  content: "";
-  top: -27px;
-  background-color: #21c87a;
-  opacity: .3;
-  width: 80px;
-  right: 70px;
-  height: 80px;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-.img-icon-block i {
-  font-size: 58px;
-  z-index: 2 !important;
-  color: #333;
-  position: relative;
-}
-
-/*--------------------------
-ABOUT-2
----------------------------*/
-#about .img-block {
-  position: relative;
-  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
-}
-
-#about .img-block img {
-  border: 5px solid #21c87a;
-}
-
-.pt-6 {
-  padding-top: 4.5rem;
-}
-
-.img-icon i {
-  font-size: 60px;
-}
 
 /*----------------------
- SERVICE
------------------------*/
-h5.subtitle {
-  color: #21c87a;
-  margin-bottom: 10px;
-  font-weight: 300;
-}
-
-.service-heading {
-  margin-bottom: 50px;
-}
-
-.service-images {
-  margin-bottom: -200px;
-  border: 10px solid #fff;
-  z-index: 9999;
-}
-
-.service-content {
-  padding-top: 60px;
-  padding-left: 15px;
-}
-
-.service-content h1 {
-  margin-bottom: 20px;
-  margin-top: 15px;
-}
-
-.service-icon {
-  margin-right: 20px;
-  color: #fff;
-  font-size: 25px;
-  width: 50px;
-  height: 50px;
-  background: #21c87a;
-  text-align: center;
-  border-radius: 50%;
-  padding-top: 5px;
-}
-
-.service-block {
-  margin-bottom: 50px;
-}
-
-.service-inner-content h4 {
-  text-transform: uppercase;
-}
-
-/*----------------------
- WEB SERVICES
+ QUEM SOMOS
 -----------------------*/
 #quem-somos {
   position: relative;
@@ -1039,103 +933,6 @@ h5.subtitle {
 }
 
 /*----------------------
- PRICING
------------------------*/
-.price-block {
-  margin: 20px 0px 30px;
-}
-
-.price-block h2 {
-  font-size: 80px;
-  font-weight: 700;
-  position: relative;
-  display: inline-block;
-}
-
-.price-block h2 small {
-  position: absolute;
-  top: 20px;
-  font-size: 16px;
-  left: -9px;
-}
-
-.price-block h6 {
-  font-size: 14px;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  padding: 7px;
-  text-transform: capitalize;
-  width: 50%;
-  margin: 10px auto;
-}
-
-.price-features {
-  margin: 30px 0px 50px;
-}
-
-.price-features li {
-  font-size: 16px;
-  padding: 5px 0px;
-  position: relative;
-  padding-left: 30px;
-}
-
-.price-features li:before {
-  position: absolute;
-  content: "\f00c";
-  font-family: "Font Awesome 5 Free";
-  left: 0px;
-  top: 5px;
-  color: #21c87a;
-  font-weight: 900;
-}
-
-.pricing-block .price-features li {
-  padding-left: 0px;
-}
-
-.pricing-block .price-features li:before {
-  display: none;
-}
-
-/*--------------------------
-PRICING-2
----------------------------*/
-.pricing-box {
-  border: 1px solid #eee;
-  padding: 60px;
-  transition: all 300ms ease-in-out;
-}
-
-.pricing-box .price-block h2 span {
-  font-size: 12px;
-  font-weight: normal;
-  text-transform: capitalize;
-}
-
-.pricing-box:hover {
-  background: #1d1c1c;
-  border-color: #1d1c1c;
-}
-
-.pricing-box:hover .price-features li {
-  color: #eee;
-}
-
-.pricing-box:hover .price-block h2 {
-  color: #fff;
-}
-
-.pricing-box:hover h3 {
-  color: #fff;
-}
-
-.pricing-box:hover .btn {
-  background: #fff !important;
-  color: #000 !important;
-}
-
-/*----------------------
  BLOG SECTION
 -----------------------*/
 .blog-box {
@@ -1182,70 +979,6 @@ PRICING-2
 
 .blog-content h6 span:after {
   display: none;
-}
-
-/*------------------------------------
-SECTION TESTIMONIAL
--------------------------------------*/
-#section-testimonial {
-  padding-bottom: 120px;
-  background: #F9FAFF;
-}
-
-.mb25 {
-  margin-bottom: 25px;
-}
-
-.test-inner {
-  position: relative;
-  padding: 30px;
-  background: #fff;
-  border-top-right-radius: 35px;
-  margin-bottom: 25px;
-  transition: all .7s ease;
-}
-
-.test-inner:hover {
-  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
-}
-
-.test-inner i {
-  font-size: 60px;
-  opacity: .09;
-  position: absolute;
-  right: 40px;
-  bottom: 20px;
-}
-
-.test-author-thumb {
-  margin-bottom: 15px;
-}
-
-.test-author-thumb img {
-  width: 90px;
-  height: 90px;
-  border-radius: 100%;
-  border: 1px dotted #ddd;
-  padding: 5px;
-}
-
-.test-author-info {
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-/*----------------------
- TETSIMONIAL-2
--------------------------*/
-.testimonial .content img {
-  margin: 0 auto 30px;
-  border: 3px solid #fff;
-}
-
-.img-md {
-  width: 120px;
-  height: 120px;
-  border-radius: 100%;
 }
 
 /*---------------------------
@@ -1307,41 +1040,6 @@ CONTACT PAGE
   color: #3E1648 !important;
 }
 
-/*-----------------------------
- SCROLL TO TOP
---------------------------------*/
-.scroll-to-top {
-  position: fixed;
-  content: "";
-  right: 30px;
-  bottom: 50px;
-  z-index: 999;
-  background: #21c87a;
-  color: #fff !important;
-  border-radius: 100%;
-  opacity: 0;
-}
-
-.scroll-to-top i {
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
-  text-align: center;
-  font-size: 22px;
-  line-height: 60px;
-  display: block;
-  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
-}
-
-.scroll-to-top:hover, .scroll-to-top:focus {
-  text-decoration: none;
-}
-
-.reveal {
-  transition: all .3s;
-  cursor: pointer;
-  opacity: 1;
-}
 
 /*----------------------------------
     MEDIUM LAYOUT: 1280px
@@ -1578,7 +1276,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #9a0034;
+    background: #62354C;
   }
   #map {
     margin-top: 40px;
@@ -1833,7 +1531,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #9a0034;
+    background: #62354C;
   }
   .web-service-block {
     margin-bottom: 30px;
