@@ -79,6 +79,7 @@ h1 {
 .h2,
 h2 {
   font-size: 1.625rem;
+  color: #990033;
 }
 
 .h3,
@@ -969,7 +970,7 @@ PAGE BANNER
 }
 
 .blog-content:hover a h3 {
-  color: #21c87a;
+  color: #3E1648;
 }
 
 .blog-content h6 span {
